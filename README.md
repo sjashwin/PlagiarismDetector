@@ -1,8 +1,8 @@
-#####Project Still under construction.
+##### Project Still under construction.
 
 <hr>
 
-##<b>Contributions :</b>
+## <b>Contributions :</b>
 <ul>
     <li>All the working files can be found in the <code>src</code> folder.</li>
     <li>The main class will be <code>PlagiarismDetector.java</code></li>

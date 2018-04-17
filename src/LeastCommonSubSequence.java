@@ -43,7 +43,7 @@ class LeastCommonSubSequence {
                     (new StringBuilder(test).deleteCharAt(0).toString()),
                     (new StringBuilder(corpora).deleteCharAt(0).toString()));
         }
-        
+
         else
             return Math.max(
                     getSequenceLength(test, (new StringBuilder(corpora).deleteCharAt(0).toString())),

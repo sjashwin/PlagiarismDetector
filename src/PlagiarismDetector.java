@@ -5,6 +5,7 @@ public class PlagiarismDetector {
         System.out.println(LCSS.getSequence()) ;
         new KMP("AABAACAADAABAABA", "AABA") ;
         new KMP("Gautam", "ut") ;
+        new NaiveSearch("AABAACAADAABAABA", "AABA") ;
 
     }
 }

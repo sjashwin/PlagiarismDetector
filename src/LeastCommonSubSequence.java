@@ -11,10 +11,11 @@ class LeastCommonSubSequence {
      * @param s2 Text 2 which is to be matched for the sequence.
      */
     LeastCommonSubSequence(String s1, String s2){
+        long start = System.currentTimeMillis() ;
         this.test = s1 ;
         this.corpora = s2;
         this.sequence = new StringBuilder() ;
-
+        System.out.println("Time Elapsed :" + String.valueOf(System.currentTimeMillis()-start)) ;
     }
 
     /**

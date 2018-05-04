@@ -12,10 +12,12 @@ class KMP {
      * @param pattern Pattern which is to be found in the corpora.
      */
     KMP(String text, String pattern){
+        long start = System.currentTimeMillis() ;
         this.text = text ;
         this.pattern = pattern ;
         auxiliary = pre_processing(pattern) ;
         search();
+        System.out.println("Time Elapsed :" + String.valueOf(System.currentTimeMillis()-start)) ;
     }
 
     /**

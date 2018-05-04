@@ -2,15 +2,18 @@ class NaiveSearch {
 
     private String text, pattern;
 
+
     /**
      *
      * @param text - text in which the pattern needs to be found.
      * @param pattern - pattern that is to be found.
      */
     NaiveSearch(String text, String pattern) {
+        long start = System.currentTimeMillis() ;
         this.text = text;
         this.pattern = pattern;
         System.out.println(search());
+        System.out.println("Time Elapsed :" + String.valueOf(System.currentTimeMillis()-start)) ;
     }
 
     /**
